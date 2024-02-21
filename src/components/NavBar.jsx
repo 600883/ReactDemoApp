@@ -3,7 +3,6 @@ import Toolbar from "@mui/material/Toolbar";
 import Link from "@mui/material/Link";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
-import { WelcomeName } from "./WelcomeName";
 import { SignInButton } from "./SignInButton";
 import { SignOutButton } from "./SignOutButton";
 import { Link as RouterLink } from "react-router-dom";
