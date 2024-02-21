@@ -1,0 +1,82 @@
+.serverBoxDiv {
+    width: 100%;
+    background-color: aquamarine;
+    border-style: solid;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.serverBoxDiv > span {
+    margin-right: auto; /* Push span text to the left */
+}
+
+.loader1 {
+    margin: 0 auto; /* Center loader */
+}
+
+.loader2 {
+    margin: 0 auto; /* Center loader */
+}
+
+.loader3 {
+    margin: 0 auto; /* Center loader */
+}
+
+.buttonContainer {
+    display: flex;
+    align-items: center;
+}
+
+.serverBoxDiv2 {
+    width: 100%;
+    background-color: aquamarine;
+    border-style: solid;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.serverBoxDiv3 {
+    width: 100%;
+    background-color: aquamarine;
+    border-style: solid;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.button1 {
+    padding: auto;;
+    margin-right: 20px;
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 10px;
+}
+
+.button2 {
+    padding: auto;
+    margin-right: 15px;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 10px;
+}
+
+.button1:hover {
+    background-color: lightgreen;
+}
+
+.button2:hover {
+    background-color: lightcoral;
+}

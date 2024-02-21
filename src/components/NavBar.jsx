@@ -16,7 +16,8 @@ const NavBar = () => {
                     <Typography sx={{ flexGrow: 1 }}>
                         <Link component={RouterLink} to="/" color="inherit" variant="h6">Microsoft identity platform</Link>
                     </Typography>
-                    <WelcomeName />
+                    <Button component={RouterLink} to="/Examples" color="inherit">Examples</Button>
+                    {/* <WelcomeName /> */}
                     <Button component={RouterLink} to="/profile" color="inherit">Profile</Button>
                     <SignInButton />
                     <SignOutButton />
