@@ -15,15 +15,18 @@
 }
 
 .loader1 {
-    margin: 0 auto; /* Center loader */
+    margin: auto; /* Center loader */
+    width: 70%;
 }
 
 .loader2 {
-    margin: 0 auto; /* Center loader */
+    margin: auto; /* Center loader */
+    width: 70%;
 }
 
 .loader3 {
-    margin: 0 auto; /* Center loader */
+    margin: auto; /* Center loader */
+    width: 70%;
 }
 
 .buttonContainer {

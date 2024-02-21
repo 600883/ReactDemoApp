@@ -23,7 +23,7 @@ export const ServerBox = () => {
         <>
             <div className="serverBoxDiv">
                 <span className="server1Txt">Server 1: </span>
-                {loadingStates[0] && <Loader className="loader1" variation="linear"/>}
+                {loadingStates[0] && <Loader className="loader1" variation="linear" speed={50}/>}
                 <div className="buttonContainer">
                     <button className="button1" onClick={() => startLoader(0)}>Button1</button>
                     <button className="button2" onClick={() => stopLoader(0)}>Button2</button>
